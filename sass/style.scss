@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+@import "normalize";
+@import "variables";
+@import "fonts";
+@import "mixins";
+@import "core";
+
+@import "blocks/visually-hidden";
+
+@import "blocks/header";
+@import "blocks/houses";
+@import "blocks/video";
+@import "blocks/about-me";
+@import "blocks/form";
+@import "blocks/subscribe";
+@import "blocks/footer";
