@@ -1,0 +1,49 @@
+.text {
+  text-align: center;
+  max-width: 970px;
+  margin: 70px auto;
+
+  .text__big {
+    font-size: 25px;
+    line-height: 1.4;
+    font-weight: 300;
+  }
+
+  b {
+    color: $second;
+    font-weight: 800;
+  }
+
+  .text__biggest {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1.5;
+  }
+
+  .text__small {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.5;
+  }
+
+}
+
+@media (max-width: 480px) {
+
+  .text {
+
+    .text__big {
+      font-size: 20px;
+    }
+
+    .text__small {
+      font-size: 16px;
+    }
+
+    .text__biggest {
+      font-size: 24px;
+    }
+
+  }
+
+}
